@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip">
+		
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center"			
+		android:layout_marginBottom="5dip"
+		android:text="@string/app_name"
+		android:textSize="26sp"	/>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <TextView style="@style/Option"
+		  	android:layout_alignParentLeft="true" 
+		  	android:padding="9dip"
+		  	android:textSize="25sp"
+		  	android:text="In Israel"
+		  	android:id="@+id/txtInIsrael" /> 
+		  
+		  <ImageView 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" 
+		  	android:layout_alignParentRight="true"
+		  	android:src="@drawable/opt_arrow"
+		  	android:id="@+id/imgInIsrael" /> 
+	     
+    </LinearLayout>
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <TextView style="@style/Option"
+		  	android:layout_alignParentLeft="true" 
+		  	android:padding="9dip"
+		  	android:textSize="25sp"
+		  	android:text="With Minyan"
+		  	android:id="@+id/txtWithMinyan" /> 
+		  
+		  <ImageView 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" 
+		  	android:layout_alignParentRight="true"
+		  	android:src="@drawable/opt_arrow"
+		  	android:id="@+id/imgWithMinyan" /> 
+	     
+    </LinearLayout>	
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <TextView style="@style/Option"
+		  	android:layout_alignParentLeft="true" 
+		  	android:padding="9dip"
+		  	android:textSize="25sp"
+		  	android:text="With Zimun"
+		  	android:id="@+id/txtZimun" /> 
+		  
+		  <ImageView 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" 
+		  	android:layout_alignParentRight="true"
+		  	android:src="@drawable/opt_arrow"
+		  	android:id="@+id/imgZimun" /> 
+	     
+    </LinearLayout>			
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <TextView style="@style/Option"
+		  	android:layout_alignParentLeft="true" 
+		  	android:padding="9dip"
+		  	android:textSize="25sp"
+		  	android:text="Ish"
+		  	android:id="@+id/txtIsh" /> 
+		  
+		  <ImageView 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" 
+		  	android:layout_alignParentRight="true"
+		  	android:src="@drawable/opt_arrow"
+		  	android:id="@+id/imgIsh" /> 
+	     
+    </LinearLayout>		
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <TextView style="@style/Option"
+		  	android:layout_alignParentLeft="true" 
+		  	android:padding="9dip"
+		  	android:textSize="25sp"
+		  	android:text="Dagan"
+		  	android:id="@+id/txtDagan" /> 
+		  
+		  <ImageView 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" 
+		  	android:layout_alignParentRight="true"
+		  	android:src="@drawable/opt_arrow"
+		  	android:id="@+id/imgDagan" /> 
+	     
+    </LinearLayout>	
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <TextView style="@style/Option"
+		  	android:layout_alignParentLeft="true" 
+		  	android:padding="9dip"
+		  	android:textSize="25sp"
+		  	android:text="Yain"
+		  	android:id="@+id/txtYain" /> 
+		  
+		  <ImageView 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" 
+		  	android:layout_alignParentRight="true"
+		  	android:src="@drawable/opt_arrow"
+		  	android:id="@+id/imgYain" /> 
+	     
+    </LinearLayout>	
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+	    <TextView style="@style/Option"
+		  	android:layout_alignParentLeft="true" 
+		  	android:padding="9dip"
+		  	android:textSize="25sp"
+		  	android:text="Perot"
+		  	android:id="@+id/txtPerot" /> 
+		  
+		  <ImageView 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content" 
+		  	android:layout_alignParentRight="true"
+		  	android:src="@drawable/opt_arrow"
+		  	android:id="@+id/imgPerot" /> 
+	     
+    </LinearLayout>		
+
+</LinearLayout>
+
+

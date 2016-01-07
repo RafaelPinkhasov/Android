@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+	<LinearLayout
+	    style="@style/View" 
+	    android:background="@color/beige"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+	    
+	     <TextView
+		        android:id="@+id/dialogTitle"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:gravity="center"
+		        android:textSize="20sp" />
+	    
+	    <LinearLayout style="@style/View"
+	        android:padding="0dp"
+	        android:paddingBottom="20dp"
+	        android:background="@color/beige">
+	    
+		   <RelativeLayout 
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"> 
+			    
+			    <!-- Progress Bar/Seek bar -->
+		    	<SeekBar
+		            android:id="@+id/songProgressBar"
+		             android:layout_width="fill_parent"
+		             android:layout_height="wrap_content"
+		             android:paddingRight="40dp"
+		             android:paddingLeft="40dp"
+		             android:progressDrawable="@drawable/scrubber_progress"
+				     android:thumb="@drawable/scrubber_control" />
+			    
+			    <LinearLayout
+			        android:id="@+id/timerDisplay"
+			        android:layout_below="@id/songProgressBar"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginRight="10dp"
+			        android:layout_marginLeft="10dp"
+			        android:layout_marginBottom="10dp">
+			        <!-- Current Duration Label -->
+			        <TextView
+			            android:id="@+id/songCurrentDurationLabel"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1"
+			            android:gravity="start"
+			            android:textColor="#04cbde"
+			            android:textStyle="bold"/>
+			        <!-- Total Duration Label -->
+			        <TextView
+			            android:id="@+id/songTotalDurationLabel"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1"
+			            android:gravity="end"
+			            android:textColor="#04cbde"
+			            android:textStyle="bold"/>
+			    </LinearLayout>    
+		 
+		    </RelativeLayout>
+		    
+			<LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"> 
+		        
+			    <ImageButton  
+					android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:background="@drawable/transparent"
+					android:src="@drawable/button_delete" 
+					android:id="@+id/delete" 
+					android:padding="5dp" />	
+			 	
+			 	<ImageButton  
+					android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:gravity="center_horizontal"
+				    android:background="@drawable/transparent"
+					android:src="@drawable/button_play" 
+					android:id="@+id/play" 
+					android:padding="5dp" />
+			 	
+			</LinearLayout>
+		 	
+	 	</LinearLayout>
+	 	    
+	</LinearLayout>
+</RelativeLayout>

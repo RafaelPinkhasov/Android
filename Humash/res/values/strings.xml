@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tanach</string>
+    <string name="chapter">Chapter</string>
+    <string name="pasuk">Pasuk</string>
+    <string name="books_prompt">Books</string>
+    <string name="language_prompt">Language</string> 
+    <string name="eng">English</string>
+	<string name="rus">Русский</string>
+	<string name="heb">עברית</string>
+	<string name="rashi">Rashi</string> 
+	<string name="set">Set</string>
+	<string name="find">Find</string>
+	<string name="language_dialog">Select default language</string>
+    <string-array name="books_array">
+		<item>Bereishit</item>
+		<item>Shemot</item>
+		<item>Vayikra</item>
+		<item>Bamidbar</item>
+		<item>Devarim</item>
+		<item>Yehoshua</item>
+		<item>Shoftim</item>
+		<item>Shmuel I</item>
+		<item>Shmuel II</item>
+		<item>Melachim I</item>
+		<item>Melachim II</item>
+		<item>Yeshayahu</item>
+		<item>Yirmiyahu</item>
+		<item>Yechezkel</item>
+		<item>Hoshea</item>
+		<item>Yoel</item>
+		<item>Amos</item>
+		<item>Ovadiah</item>
+		<item>Yonah</item>
+		<item>Michah</item>
+		<item>Nachum</item>
+		<item>Chavakuk</item>
+		<item>Tzefaniah</item>
+		<item>Chaggai</item>
+		<item>Zechariah</item>
+		<item>Malachi</item>
+		<item>Tehillim</item>
+		<item>Mishlei</item>
+		<item>Iyov</item>
+		<item>Shir Hashirim</item>
+		<item>Rut</item>
+		<item>Eichah</item>
+		<item>Kohelet</item>
+		<item>Esther</item>
+		<item>Daniel</item>
+		<item>Ezra</item>
+		<item>Nechemiah</item>
+		<item>Divrei Hayamim I</item>
+		<item>Divrei Hayamim II</item>
+	</string-array>
+</resources>

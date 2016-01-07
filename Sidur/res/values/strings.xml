@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sidur</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="birkat_hashar">Birkat Hashahar</string>
+	<string name="mincha">Mincha</string>
+	<string name="maariv">Maariv</string>
+	<string name="shaharit">Shaharit</string>
+	<string name="birkat_hamazon">Birkat Hamazon</string>
+	<string name="bracha_achrona">Bracha Achrona</string>
+	<string name="psukey_dzimra">Psukey Dzimra</string>
+	<string name="kriyat_shma_amida">Kriyat Shma and Amida</string>
+</resources>

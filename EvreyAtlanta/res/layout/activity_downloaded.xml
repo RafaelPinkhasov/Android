@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+	style="@style/View">
+		
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center"
+		android:layout_marginTop="5dip"
+		android:layout_marginBottom="5dip"
+		android:text="@string/app_name"
+		android:textSize="26sp"
+		android:textColor="@color/white"/>
+	
+	<ListView style="@style/List" 
+		android:id="@+id/home_options"
+		android:layout_height="wrap_content" /> 
+	
+</LinearLayout>

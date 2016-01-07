@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+	<style name="MyTheme" parent="android:Theme.Light">
+		<item name="android:windowFullscreen">false</item> 
+		<item name="android:windowNoTitle">true</item> 
+  	</style>
+  	<style name="View">
+    	<item name="android:layout_width">fill_parent</item> 
+		<item name="android:layout_height">fill_parent</item> 
+		<item name="android:padding">3dip</item> 
+		<item name="android:gravity">top|center</item>	
+		<item name="android:orientation">vertical</item>
+	</style>
+</resources>

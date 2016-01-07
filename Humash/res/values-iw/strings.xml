@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">התנ"ך</string>
+    <string name="chapter">פרק</string>
+    <string name="pasuk">פסוק</string>
+    <string name="books_prompt">ספרים</string>
+    <string name="language_prompt">שפה</string> 
+   	<string name="eng">English</string>
+	<string name="rus">Русский</string>
+	<string name="heb">עברית</string>  
+	<string name="rashi">רש"י</string> 
+	<string name="set">להציל</string>
+	<string name="find">חיפש</string>
+	<string name="language_dialog">בחר את השפה העיקרית</string>
+    <string-array name="books_array">
+		<item>בראשית</item>
+		<item>שמות</item>
+		<item>ויקרא</item>
+		<item>במדבר</item>
+		<item>דברים</item>
+		<item>יהושוע</item>
+		<item>שופטים</item>
+		<item>שמואל א</item>
+		<item>שמואל ב</item>
+		<item>מלכים א</item>
+		<item>מלכים ב</item>
+		<item>ישעיהו</item>
+		<item>ירמיהו</item>
+		<item>יחזקאל</item>
+		<item>הושע</item>
+		<item>יואל</item>
+		<item>עמוס</item>
+		<item>עובדיה</item>
+		<item>יונה</item>
+		<item>מיכה</item>
+		<item>נחום</item>
+		<item>חבקוק</item>
+		<item>צפניה</item>
+		<item>חגיי</item>
+		<item>זכריה</item>
+		<item>מלאכי</item>
+		<item>תהילים</item>
+		<item>משלי</item>
+		<item>איוב</item>
+		<item>שיר השירים</item>
+		<item>רות</item>
+		<item>איכה</item>
+		<item>קוהלת</item>
+		<item>אסתר</item>
+		<item>דנייאל</item>
+		<item>עזרא</item>
+		<item>נחמיה</item>
+		<item>דברי הימים א</item>
+		<item>דברי הימים ב</item>
+	</string-array>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mishna</string>
+    <string name="chapter">Chapter</string>
+    <string name="mishna">Mishna</string>
+    <string name="books_prompt">Books</string>
+    <string name="language_prompt">Language</string> 
+    <string name="eng">English</string>
+	<string name="rus">Русский</string>
+	<string name="heb">עברית</string>
+	<string name="set">Set</string>
+	<string name="find">Find</string>
+	<string name="language_dialog">Select default language</string>
+    <string-array name="books_array">
+		<item>Berakhot</item>
+		<item>Pe\'ah</item>
+		<item>Demai</item>
+		<item>Kila\'im</item>
+		<item>Shevi\'it</item>
+		<item>Terumot</item>
+		<item>Ma\'aserot</item>
+		<item>Ma\'aser Sheni</item>
+		<item>Hallah</item>
+		<item>Orlah</item>
+		<item>Bikkurim</item>
+		
+		<item>Shabbat</item>
+		<item>Eruvin</item>
+		<item>Pesahim</item>
+		<item>Shekalim</item>
+		<item>Yoma</item>
+		<item>Sukkah</item>
+		<item>Betsah</item>
+		<item>Rosh haShanah</item>
+		<item>Ta\'anit</item>
+		<item>Megillah</item>
+		<item>Mo\'ed Katan</item>
+		<item>Hagigah</item>
+		
+		<item>Yevamot</item>
+		<item>Ketubot</item>
+		<item>Nedarim</item>
+		<item>Nazir</item>
+		<item>Sotah</item>
+		<item>Gittin</item>
+		<item>Kiddushin</item>
+		
+		<item>Bava Kamma</item>
+		<item>Bava Metsi\'a</item>
+		<item>Bava Batra</item>
+		<item>Sanhedrin</item>
+		<item>Makkot</item>
+		<item>Shevu\'ot</item>
+		<item>Eduyyot</item>
+		<item>Avoda Zara</item>
+		<item>Avot</item>
+		<item>Horayot</item>
+		
+		<item>Zevahim</item>
+		<item>Menahot</item>
+		<item>Hullin</item>
+		<item>Bekhorot</item>
+		<item>Arakhin</item>
+		<item>Temurah</item>
+		<item>Keritot</item>
+		<item>Me\'ilah</item>
+		<item>Tamid</item>
+		<item>Middot</item>
+		<item>Kinnim</item>
+		
+		<item>Kelim</item>
+		<item>Ohalot</item>
+		<item>Nega\'im</item>
+		<item>Parah</item>
+		<item>Toharot</item>
+		<item>Mikva\'ot</item>
+		<item>Niddah</item>
+		<item>Makhshirin</item>
+		<item>Zavim</item>
+		<item>Tevul Yom</item>
+		<item>Yadayim</item>
+		<item>Uktsin</item>		
+		
+	</string-array>
+</resources>

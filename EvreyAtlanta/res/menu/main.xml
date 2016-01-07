@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_wp"
+        android:orderInCategory="100"
+        android:title="@string/menu_wp"/>
+    
+    <item
+        android:id="@+id/menu_rb"
+        android:orderInCategory="100"
+        android:title="@string/menu_rb"/>
+    
+    <item
+        android:id="@+id/menu_hs"
+        android:orderInCategory="100"
+        android:title="@string/menu_hs"/>
+    
+    <item
+        android:id="@+id/menu_in"
+        android:orderInCategory="100"
+        android:title="@string/menu_in"/>
+
+</menu>

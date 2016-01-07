@@ -1,0 +1,68 @@
+﻿<tora>
+	<book name="Берешит">
+	<parsha name="Берешит" chapter="1" pasuk="1" />
+	<parsha name="Ноах" chapter="6" pasuk="9" />
+	<parsha name="Лех Леха" chapter="12" pasuk="1" />
+	<parsha name="Ваера" chapter="18" pasuk="1" />
+	<parsha name="Хаей Сара" chapter="23" pasuk="1" />
+	<parsha name="Толдот" chapter="25" pasuk="19" />
+	<parsha name="Ваеце" chapter="28" pasuk="10" />
+	<parsha name="Ваешев" chapter="37" pasuk="4" />
+	<parsha name="Микец" chapter="41" pasuk="1" />
+	<parsha name="Ваигаш" chapter="44" pasuk="18" />
+	<parsha name="Ваехи" chapter="47" pasuk="28" />
+	
+	</book>
+	<book name="Шмот">
+	<parsha name="Шмот" chapter="1" pasuk="1" />
+<parsha name="Ваэра" chapter="6" pasuk="2" />
+<parsha name="Бо" chapter="10" pasuk="1" />
+<parsha name="Бешалах" chapter="13" pasuk="17" />
+<parsha name="Итро" chapter="18" pasuk="1" />
+<parsha name="Мишпатим" chapter="21" pasuk="1" />
+<parsha name="Трума" chapter="25" pasuk="1" />
+<parsha name="Тецаве" chapter="27" pasuk="20" />
+<parsha name="Ки тиса" chapter="30" pasuk="11" />
+<parsha name="Ваякель" chapter="35" pasuk="1" />
+<parsha name="Пекудей" chapter="38" pasuk="21" />
+
+	</book>
+	<book name="Ваикра">
+<parsha name="Ваикра" chapter="1" pasuk="1" />
+<parsha name="Цав" chapter="6" pasuk="1" />
+<parsha name="Шмини" chapter="9" pasuk="1" />
+<parsha name="Тазриа" chapter="12" pasuk="1" />
+<parsha name="Мецора" chapter="14" pasuk="1" />
+<parsha name="Ахарей мот" chapter="16" pasuk="1" />
+<parsha name="Кдошим" chapter="19" pasuk="1" />
+<parsha name="Эмор" chapter="21" pasuk="1" />
+<parsha name="Беар" chapter="25" pasuk="1" />
+<parsha name="Бехукотай" chapter="26" pasuk="3" />
+
+</book>
+	<book name="Бемидбар">
+<parsha name="Бемидбар" chapter="1" pasuk="1" />
+<parsha name="Насо" chapter="4" pasuk="21" />
+<parsha name="Беалотха" chapter="8" pasuk="1" />
+<parsha name="Шлах" chapter="13" pasuk="1" />
+<parsha name="Корах" chapter="16" pasuk="1" />
+<parsha name="Хукат" chapter="19" pasuk="1" />
+<parsha name="Балак" chapter="22" pasuk="2" />
+<parsha name="Пинхас" chapter="25" pasuk="10" />
+<parsha name="Матот" chapter="30" pasuk="2" />
+<parsha name="Масэй" chapter="33" pasuk="1" />
+</book>
+<book name="Дварим">
+<parsha name="Дварим" chapter="1" pasuk="1" />
+<parsha name="Ваэтханан" chapter="3" pasuk="23" />
+<parsha name="Экев" chapter="7" pasuk="12" />
+<parsha name="Реэ" chapter="11" pasuk="26" />
+<parsha name="Шофтим" chapter="16" pasuk="18" />
+<parsha name="Ки теце" chapter="21" pasuk="10" />
+<parsha name="Ки таво" chapter="26" pasuk="1" />
+<parsha name="Ницавим" chapter="29" pasuk="9" />
+<parsha name="Ваелех" chapter="31" pasuk="1" />
+<parsha name="Аазину" chapter="32" pasuk="1" />
+<parsha name="Зот а-браха" chapter="33" pasuk="1" />
+</book>
+</tora>

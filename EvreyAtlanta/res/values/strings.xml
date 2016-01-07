@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тора Аудио</string>
+    <string name="menu_wp">Недельная Глава</string>
+    <string name="menu_rb">Равины</string>
+    <string name="menu_hs">Уже слушаю</string>
+    <string name="menu_dw">Сохраненные лекции</string>
+    <string name="menu_in">Инфо</string>
+    <string name="menu_sb">Темы</string>
+    <string name="playDescription">Play</string>
+    <string name="loading">Loading</string>
+    <string name="arrow">Arrow</string>
+    <string name="delete">Убрать</string>
+</resources>

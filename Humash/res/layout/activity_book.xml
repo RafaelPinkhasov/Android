@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/View" >
+	
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical">
+        
+          <ImageButton  
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/transparent"
+			android:src="@drawable/button_settings" 
+			android:id="@+id/btnSettings"
+			android:paddingLeft="1dp" />
+         
+         <ImageButton  
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/transparent"
+			android:src="@drawable/button_find" 
+			android:id="@+id/btnDialog"
+			android:paddingLeft="1dp" />  
+         
+         <ImageButton  
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/transparent"
+			android:src="@drawable/button_back" 
+			android:id="@+id/btnBack"
+			android:paddingLeft="1dp" />
+   
+        <ImageButton  
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/transparent"
+			android:src="@drawable/button_next" 
+			android:id="@+id/btnNext"
+			android:paddingLeft="1dp"
+			android:paddingRight="2dp" />
+        
+        <ToggleButton
+            android:id="@+id/btnEng"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_left"
+            android:textOn="Eng" 
+	        android:textOff="Eng" 
+	        android:textColor="@drawable/toggle_color"/>
+        
+        <ToggleButton
+            android:id="@+id/btnHeb"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_center"
+            android:textOn="עבר" 
+	        android:textOff="עבר"  
+	        android:textColor="@drawable/toggle_color"/>
+         
+        <ToggleButton
+            android:id="@+id/btnRus"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_right"
+            android:textOn="Рус" 
+	        android:textOff="Рус"
+			android:textColor="@drawable/toggle_color"/>
+        
+    </LinearLayout>
+    <TextView
+	        android:id="@+id/txtTitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:layout_marginBottom="5dip"
+	        android:layout_marginTop="5dip"
+	        android:textStyle="bold"
+	        android:textSize="25sp"
+	        android:background="@color/red"
+	        android:textColor="@color/white"
+	        android:padding="5dip" />
+    
+	<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	    <LinearLayout
+	        android:id="@+id/llContainer"
+	        android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">        
+	        
+	        
+	    </LinearLayout>
+	   
+	</ScrollView>
+</LinearLayout>

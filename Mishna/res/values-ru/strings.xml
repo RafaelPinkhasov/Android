@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мишна</string>
+    <string name="chapter">Глава</string>
+    <string name="mishna">Мишна</string>
+    <string name="language_prompt">Язык</string> 
+    <string name="eng">English</string>
+	<string name="rus">Русский</string>
+	<string name="heb">עברית</string>   
+    <string name="books_prompt">Книги</string>
+    <string name="set">Сохранить</string>
+    <string name="find">Найти</string>
+    <string name="language_dialog">Выбери главный язык</string>
+    <string-array name="books_array">
+		<item>Брахот</item>
+		<item>Пэя</item>
+		<item>Дмай</item>
+		<item>Килаим</item>
+		<item>Швиит</item>
+		<item>Трумот</item>
+		<item>Маасерот</item>
+		<item>Маасер Шейни</item>
+		<item>Хала</item>
+		<item>Орла</item>
+		<item>Бикурим</item>
+		
+		<item>Шабат</item>
+		<item>Эрувин</item>
+		<item>Песахим</item>
+		<item>Шкалим</item>
+		<item>Йома</item>
+		<item>Сука</item>
+		<item>Бейца</item>
+		<item>Рош Хашана</item>
+		<item>Таанит</item>
+		<item>Мегила</item>
+		<item>Моэд Катан</item>
+		<item>Хагига</item>
+		
+		<item>Евамот</item>
+		<item>Ктубот</item>
+		<item>Недарим</item>
+		<item>Назир</item>
+		<item>Сота</item>
+		<item>Гитин</item>
+		<item>Кидушин</item>
+		
+		<item>Бава Кама</item>
+		<item>Бава Мециа</item>
+		<item>Бава Батра</item>
+		<item>Санхедрин</item>
+		<item>Макот</item>
+		<item>Шевуот</item>
+		<item>Эдуйот</item>
+		<item>Авода Зара</item>
+		<item>Авот</item>
+		<item>Хорайот</item>
+		
+		<item>Зевахим</item>
+		<item>Менахот</item>
+		<item>Хулин</item>
+		<item>Бехорот</item>
+		<item>Арахин</item>
+		<item>Тмура</item>
+		<item>Критот</item>
+		<item>Меила</item>
+		<item>Тамид</item>
+		<item>Мидот</item>
+		<item>Киним</item>
+		
+		<item>Келим</item>
+		<item>Охалот</item>
+		<item>Негоим</item>
+		<item>Пара</item>
+		<item>Тохарот</item>
+		<item>Миквайот</item>
+		<item>Нида</item>
+		<item>Махширин</item>
+		<item>Завим</item>
+		<item>Тевул Йом</item>
+		<item>Ядаим</item>
+		<item>Уктцин</item>	
+		
+	</string-array>
+</resources>

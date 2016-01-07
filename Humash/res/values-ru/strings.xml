@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Танах</string>
+    <string name="chapter">Глава</string>
+    <string name="pasuk">Пасук</string>
+    <string name="language_prompt">Язык</string> 
+    <string name="eng">English</string>
+	<string name="rus">Русский</string>
+	<string name="heb">עברית</string>   
+    <string name="books_prompt">Книги</string>
+    <string name="rashi">Раши</string> 
+    <string name="set">Сохранить</string>
+    <string name="find">Найти</string>
+    <string name="language_dialog">Выбери главный язык</string>
+    <string-array name="books_array">
+		<item>Берейшис</item>
+		<item>Шмойс</item>
+		<item>Вайикро</item>
+		<item>Бемидбар</item>
+		<item>Дворим</item>
+		<item>Йегошуа</item>
+		<item>Шойфтим</item>
+		<item>Шмуэль I</item>
+		<item>Шмуэль II</item>
+		<item>Млахим I</item>
+		<item>Млахим II</item>
+		<item>Йешайа</item>
+		<item>Йирмийа</item>
+		<item>Йехезкель</item>
+		<item>Ошеа</item>
+		<item>Йоэл</item>
+		<item>Амос</item>
+		<item>Овадья</item>
+		<item>Йона</item>
+		<item>Миха</item>
+		<item>Нахум</item>
+		<item>Хаввакук</item>
+		<item>Цфанья</item>
+		<item>Хаггай</item>
+		<item>Захария</item>
+		<item>Малахи</item>
+		<item>Тегилим</item>
+		<item>Мишлей</item>
+		<item>Ийов</item>
+		<item>Шир гаШирим</item>
+		<item>Рут</item>
+		<item>Эйха</item>
+		<item>Когелет</item>
+		<item>Эстер</item>
+		<item>Даниель</item>
+		<item>Эзра</item>
+		<item>Нехемия</item>
+		<item>Диврей гаЙамим I</item>
+		<item>Диврей гаЙамим II</item>
+	</string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	style="@style/ItemLayoutView">
+
+   <LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" 
+		android:orientation="vertical"> 
+    	
+	  <TextView style="@style/Option"
+	  	android:id="@+id/txtcolumn1" 
+	  	android:singleLine="false" /> 
+	  	
+	  <LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"> 
+	  
+	  <TextView style="@style/Option"
+	      android:textSize="12sp"
+	  	  android:id="@+id/txtcolumn2" />
+	  
+ 		<TextView style="@style/Option"
+		  android:textSize="12sp"
+	  	  android:id="@+id/txtcolumn3"
+	  	  android:textColor="@color/blue" />
+	  	
+	  </LinearLayout>
+
+	</LinearLayout>
+  
+  <ImageView 
+  	android:layout_width="wrap_content" 
+  	android:layout_height="wrap_content" 
+  	android:layout_alignParentRight="true"
+  	android:src="@drawable/opt_arrow"
+  	android:contentDescription="@string/arrow" />
+  	 
+</RelativeLayout>

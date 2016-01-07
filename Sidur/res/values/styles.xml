@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+	<style name="MyTheme" parent="android:Theme.Light">
+		<item name="android:windowFullscreen">false</item> 
+		<item name="android:windowNoTitle">true</item> 
+		<item name="android:textColorPrimaryInverse">@color/blue</item> 
+		<item name="android:windowBackground">@color/beige</item> 	
+		<item name="android:panelFullBackground">@color/menu</item>
+		<item name="android:listViewStyle">@style/List</item> 
+  	</style>
+  	<style name="View">
+    	<item name="android:layout_width">fill_parent</item> 
+		<item name="android:layout_height">fill_parent</item> 
+		<item name="android:background">@drawable/tora</item> 
+		<item name="android:padding">1dip</item> 
+		<item name="android:gravity">top|center</item>	
+		<item name="android:orientation">vertical</item>
+	</style>	
+	<style name="ItemLayoutView">
+		<item name="android:layout_width">fill_parent</item> 
+		<item name="android:layout_height">wrap_content</item> 
+		<item name="android:background">@drawable/list</item> 
+		<item name="android:paddingRight">5dip</item> 	
+		<item name="android:paddingLeft">5dip</item> 
+		<item name="android:gravity">left|center</item> 	
+		<item name="android:orientation">horizontal</item> 	
+	</style>
+	<style name="Title">
+		<item name="android:textSize">18sp</item> 
+		<item name="android:textColor">@color/white</item> 
+		<item name="android:textStyle">bold</item> 
+		<item name="android:padding">5dip</item> 		 
+		<item name="android:layout_height">wrap_content</item> 
+		<item name="android:layout_width">wrap_content</item> 
+		<item name="android:gravity">center</item> 
+		<item name="android:layout_gravity">center</item> 
+	</style>
+	<style name="Option" parent="Text">
+		<item name="android:padding">2dip</item> 	
+		<item name="android:textColor">@drawable/text_color</item>
+  	</style>	
+	<style name="Text">
+		<item name="android:textSize">13sp</item> 
+		<item name="android:textColor">#ff000000</item> 
+		<item name="android:textStyle">normal</item> 
+		<item name="android:layout_height">wrap_content</item> 
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:padding">9dip</item> 		
+		<item name="android:gravity">left</item>
+		<item name="android:singleLine">true</item> 
+		<item name="android:layout_gravity">center_vertical|left</item>
+  	</style>
+  	<style name="List">
+		<item name="android:layout_width">fill_parent</item> 
+		<item name="android:layout_height">fill_parent</item> 
+		<item name="android:layout_weight">1</item> 
+		<item name="android:drawSelectorOnTop">false</item> 
+		<item name="android:layoutAnimation">@anim/list_layout</item> 
+		<item name="android:listSelector">@drawable/list</item> 
+		<item name="android:divider">@drawable/opt_rule</item> 
+		<item name="android:background">@color/beige</item> 
+		<item name="android:scrollbars">none</item> 
+		<item name="android:fadingEdge">none</item>
+		<item name="android:cacheColorHint">#00000000</item>
+  	</style>   
+</resources>

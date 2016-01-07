@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">משנה</string>
+    <string name="chapter">פרק</string>
+    <string name="mishna">משנה</string>
+    <string name="books_prompt">ספרים</string>
+    <string name="language_prompt">שפה</string> 
+   	<string name="eng">English</string>
+	<string name="rus">Русский</string>
+	<string name="heb">עברית</string>  
+	<string name="set">להציל</string>
+	<string name="find">חיפש</string>
+	<string name="language_dialog">בחר את השפה העיקרית</string>
+    <string-array name="books_array">
+		<item>ברכות</item>
+		<item>פיאה</item>
+		<item>דמאי</item>
+		<item>כלאיים</item>
+		<item>שביעית</item>
+		<item>תרומות</item>
+		<item>מעשרות</item>
+		<item>מעשר שני</item>
+		<item>חלה</item>
+		<item>עורלה</item>
+		<item>ביכורים</item>
+		
+		<item>שבת</item>
+		<item>עירובין</item>
+		<item>פסחים</item>
+		<item>שקלים</item>
+		<item>יומא</item>
+		<item>סוכה</item>
+		<item>ביצה</item>
+		<item>ראש השנה</item>
+		<item>תענית</item>
+		<item>מגילה</item>
+		<item>מועד קטן</item>
+		<item>חגיגה</item>
+		
+		<item>יבמות</item>
+		<item>כתובות</item>
+		<item>נדרים</item>
+		<item>נזיר</item>
+		<item>סוטה</item>
+		<item>גיטין</item>
+		<item>קידושין</item>
+		
+		<item>בבא קמא</item>
+		<item>בבא מציעא</item>
+		<item>בבא בתרא</item>
+		<item>סנהדרין</item>
+		<item>מכות</item>
+		<item>שבועות</item>
+		<item>עדייות</item>
+		<item>עבודה זרה</item>
+		<item>אבות</item>
+		<item>הוריות</item>
+		
+		<item>זבחים</item>
+		<item>מנחות</item>
+		<item>חולין</item>
+		<item>בכורות</item>
+		<item>ערכין</item>
+		<item>תמורה</item>
+		<item>כרתות</item>
+		<item>מעילה</item>
+		<item>תמיד</item>
+		<item>מידות</item>
+		<item>קינים</item>
+		
+		<item>כלים</item>
+		<item>אוהלות</item>
+		<item>נגעים</item>
+		<item>פרה</item>
+		<item>טהרות</item>
+		<item>מקוות</item>
+		<item>נידה</item>
+		<item>מכשירין</item>
+		<item>זבים</item>
+		<item>טבול יום</item>
+		<item>ידיים</item>
+		<item>עוקצים</item>		
+	</string-array>
+</resources>

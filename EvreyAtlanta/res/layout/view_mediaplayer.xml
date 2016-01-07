@@ -1,0 +1,59 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<View 
+	    android:layout_width="match_parent" 
+	    android:layout_height="1px" 
+	    android:background="#ffffffff"/>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:background="#ff5a5a5a" 
+	    android:paddingTop="1dip" 
+	    android:paddingBottom="4dip" 
+	    android:orientation="horizontal">
+	    
+		<TextView 
+		    android:id="@+id/currenttime" 
+		    android:textAppearance="?android:attr/textAppearanceMedium" 
+		    android:textSize="14sp" 
+		    android:textStyle="bold" 
+		    android:shadowColor="#ff000000" 
+		    android:shadowDx="0" 
+		    android:shadowDy="0" 
+		    android:shadowRadius="3" 
+		    android:layout_gravity="bottom" 
+		    android:layout_weight="1" 
+		    android:layout_width="0dip" 
+		    android:paddingLeft="5dip" 
+		    android:layout_height="wrap_content"/>
+		    
+		<ImageButton android:id="@+id/pause" style="@android:style/MediaButton.Play"/>			
+		
+		<TextView 
+		    android:id="@+id/totaltime" 
+		    android:textAppearance="?android:attr/textAppearanceMedium" 
+		    android:textSize="14sp" 
+		    android:textStyle="bold" 
+		    android:shadowColor="#ff000000" 
+		    android:shadowDx="0" 
+		    android:shadowDy="0" 
+		    android:shadowRadius="3" 
+		    android:gravity="right" 
+		    android:paddingRight="5dip" 
+		    android:layout_gravity="bottom" 
+		    android:layout_weight="1" 
+		    android:layout_width="0dip" 
+		    android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<SeekBar 
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:id="@android:id/progress" 
+	    android:background="#ff5a5a5a" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="36dip" 
+	    android:paddingLeft="8dip" 
+	    android:paddingRight="8dip" 
+	    android:paddingBottom="4dip"/>
+	
+</merge>

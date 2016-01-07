@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+	<LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="5dip">
+			
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center"			
+			android:layout_marginBottom="5dip"
+			android:text="@string/app_name"
+			android:textSize="26sp"	/>
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	    	android:orientation="horizontal" >
+	    	
+		    <TextView
+		        android:layout_width="100dip"
+		        android:layout_height="wrap_content"
+		        android:text="@string/books_prompt"
+		        android:padding="10dp" />
+	    	
+		    <Spinner 
+				android:id="@+id/ddlBooks"
+				android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" 
+		        android:entries="@array/books_array"
+	        	android:prompt="@string/books_prompt"
+	        	android:padding="10dp" />
+		     
+	    </LinearLayout>
+	    
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	    	android:orientation="horizontal" >
+		    
+		    <TextView
+		        android:layout_width="100dip"
+		        android:layout_height="wrap_content"
+		        android:text="@string/chapter"
+		        android:padding="10dp" />
+		    
+		    <EditText
+				android:id="@+id/txtChapter"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:padding="10dp" />
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	    	android:orientation="horizontal" >
+		    
+		     <TextView
+		        android:layout_width="100dip"
+		        android:layout_height="wrap_content"
+		        android:text="@string/mishna"
+		        android:padding="10dp" />
+	
+		    <EditText
+				android:id="@+id/txtMishna"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="number"
+				android:padding="10dp" />
+		    
+		</LinearLayout>	
+		
+		<Button  
+				android:layout_width="120dp"
+			    android:layout_height="50dp"
+			    android:background="@drawable/button"
+			    android:text="@string/find"
+			    android:textColor="@color/white"
+			   android:textSize="20sp"
+				android:id="@+id/btnFind"
+				android:layout_gravity="center_horizontal"
+				android:layout_margin="15dp" />		
+	
+	</LinearLayout>
+
+</RelativeLayout>
